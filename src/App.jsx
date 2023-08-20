@@ -14,7 +14,7 @@ function App() {
       .then((response) => setProducts(response))
       .catch((err) => console.log(err));
   }, []);
-  console.log(products);
+  
 
   return (
     <>
