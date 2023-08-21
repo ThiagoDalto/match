@@ -3,6 +3,7 @@ import { useState } from "react";
 import logo from "../../assets/m3.png";
 import { HEADER } from "./HeaderStyle";
 
+// eslint-disable-next-line no-unused-vars
 function Header({filteredProducts, setFilteredProducts, products }) {
 
   const [inputSearch, setInputSearch] = useState('')

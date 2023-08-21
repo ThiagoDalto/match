@@ -4,7 +4,7 @@ import { Container, CardProduct } from "./ProductStyle";
 
 
 function Product({ products, setCurrentSale, currentSale }) {
-  let alternativeProducts = ["matchBurger", "X-Match", "Big Match", "Fanta Guaraná", "Coca-Cola", "MatchShake Ovomaltine"];
+  let alternativeProducts = ["MatchBurger", "X-Match", "Big Match", "Fanta Guaraná", "Coca-Cola", "MatchShake Ovomaltine"];
   function handleClick(id) {
     const adicionaCart = products.find((product) => product.id === id);
     if (!currentSale.includes(adicionaCart)) {
